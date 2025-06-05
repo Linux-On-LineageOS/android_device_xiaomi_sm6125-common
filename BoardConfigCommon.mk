@@ -130,3 +130,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
 include vendor/xiaomi/sm6125-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
